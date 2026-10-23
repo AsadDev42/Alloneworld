@@ -191,6 +191,32 @@ body.home.aow-home-polished .aow-whatsapp-contact { right: 40px; }
   body.home.aow-home-polished #aow-lang-selector-root { right: 24px !important; }
   body.home.aow-home-polished .aow-whatsapp-contact { right: 24px; }
 }
+/* About artwork: a layered architectural arch, with a fine coral accent. */
+body.home.aow-home-polished .elementor-element-72d01a3 .elementor-element-3a749b0 {
+  position: relative; isolation: isolate; max-width: 460px !important;
+  padding: 14px 18px 18px 14px !important; margin-inline: auto !important;
+}
+body.home.aow-home-polished .elementor-element-72d01a3 .elementor-element-3a749b0::before {
+  content: ''; position: absolute; inset: 0 3px 4px 0; z-index: -1; pointer-events: none;
+  border: 1px solid #a8a3df; border-radius: 48% 48% 24px 24px;
+  background: linear-gradient(145deg,#eeecfb,#f5e8e4);
+}
+body.home.aow-home-polished .elementor-element-72d01a3 .elementor-element-3a749b0::after {
+  content: ''; position: absolute; width: 23px; height: 23px; bottom: 7px; right: 7px;
+  background: #e17656; border: 5px solid #f8f8fd; transform: rotate(45deg); pointer-events: none;
+}
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed {
+  padding: 8px !important; border: 1px solid #dedbf2 !important; background: #ffffff !important;
+  border-radius: 48% 48% 18px 18px !important; overflow: hidden;
+  box-shadow: 0 16px 32px #2730870d !important;
+}
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed img {
+  display: block; width: 100% !important; height: auto !important; aspect-ratio: 1;
+  object-fit: cover !important; border-radius: 48% 48% 11px 11px !important;
+}
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed:focus-within {
+  outline: 3px solid #6666cc; outline-offset: 4px;
+}
 /* A direct contact action, placed above the floating language control. */
 /* Static, lightweight lattice with a quiet reading area through the centre. */
 body.home.aow-home-polished :is(#content,.elementor-element-72d01a3,#what-we-explore,#meet-the-founder,#resources-and-reading,#latest-articles) {

@@ -1,0 +1,5 @@
+# About community artwork
+
+Tool: built-in imagegen. Asset: `assets/images/about-art-community.png`.
+
+Create one premium editorial art illustration for the About section of All One World, a psychosocial community focused on attachment, loss, belonging, human connection and reflective dialogue. Square composition. A small diverse group of adults seated in a relaxed circle in a serene Anglo-Arab courtyard, a delicate olive tree, Islamic pointed stone arches and understated geometric tile details. Emphasize human connection and quiet mutual listening, not a religious ceremony. Beautiful hand-painted gouache and textured paper collage, sophisticated contemporary magazine illustration, expressive simplified people with natural varied clothing, warm humane mood. Main palette indigo #273087, violet #6666CC, turquoise #67C6C6, pale ivory, restrained terracotta coral #E17656. Soft daylight. Carefully composed balanced artwork, central figures comfortably inside the central 70 percent, upper third architectural arches and foliage, lower area textured courtyard. No text, no lettering, no logo, no watermark, no outer frame. Fully painted image edge to edge.
