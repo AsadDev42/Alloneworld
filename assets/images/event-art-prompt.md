@@ -1,0 +1,6 @@
+# Event illustration
+
+Tool: built-in imagegen. Asset: `assets/images/event-art-palestine.png`.
+Reference: user-supplied screenshot of the original events section, photo on the right.
+
+Use the photograph on the RIGHT SIDE of the supplied screenshot as the sole scene reference. Create a standalone square editorial art illustration of that scene: three Palestinian school-age children walking joyfully through a historic limestone alley with stone stairs, the foreground child raising a Palestinian flag, everyday backpacks and clothing, human dignity and hope. Preserve the photo's essential setting and subject, reinterpret in beautiful hand-painted gouache and textured paper collage, premium contemporary editorial art matching a psychosocial community website. Indigo #273087 and violet #6666CC in shadows, soft turquoise #67C6C6, warm limestone ivory, restrained coral #E17656, natural Palestinian flag colors. Keep the whole flag legible and children's faces inside central 75 percent for a website crop. Fully painted edge-to-edge square. Remove all screenshot UI, text, headings, buttons, frames, geometric overlay ornament and purple section background. No text, logos, watermark, no border. Artwork only.

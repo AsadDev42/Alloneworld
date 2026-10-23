@@ -16,6 +16,7 @@
     '.aow-she-layout > :first-child',
     '.aow-pillar-item',
     '.aow-founder-card',
+    '.aow-events-panel',
     '.aow-resource-card',
     '#aow-blog-track',
     '.aow-section-footer-cta',
