@@ -1,4 +1,9 @@
 node_modules/
+.compute-build/
+.prisma/
+.prisma-composer/
+.alchemy/
+deploy-report*.json
 .env
 .env.*
 !.env.example

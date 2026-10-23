@@ -5,7 +5,25 @@
   "description": "All One World responsive homepage client demo",
   "scripts": {
     "start": "node serve_static.js",
-    "test": "node scripts/check-site.cjs"
+    "test": "node scripts/check-site.cjs",
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build-compute.cjs",
+    "compute:dev": "bun .compute-build/server.mjs",
+    "compute:deploy": "node scripts/deploy-compute.mjs"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@prisma/composer": "0.21.0",
+    "@prisma/composer-prisma-cloud": "0.21.0",
+    "@prisma/orm-postgres": "8.0.0-rc.11"
+  },
+  "devDependencies": {
+    "@prisma/compute-sdk": "0.43.0",
+    "@prisma/management-api-sdk": "1.69.0",
+    "@types/bun": "1.3.5",
+    "prisma": "8.0.0-rc.17",
+    "typescript": "5.9.3"
+  }
 }

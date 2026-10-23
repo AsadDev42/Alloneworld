@@ -43,3 +43,15 @@ The original logo is retained. The latest hero background was supplied by the cl
 - Newsletter validation and feedback are present. A static preview has no WordPress backend, so it displays a demo notice instead of claiming a real subscription. Existing same-origin WordPress submission configuration remains supported.
 
 This repository contains the homepage client demo and its assets. It is not a full WordPress installation or a deployment of the other website pages. Browser profiles, temporary screenshots, credentials, and working backups are excluded.
+
+## Prisma Compute hosting
+
+Live website: https://a13czbnv5544qb9mku47p9n1.sjc.prisma.build
+
+The `alloneworld` service runs on the production `main` branch of the existing `powerful-purple-moose` project (`proj_yoj8g01nyvyt5dryqolzdgtt`) in `us-west-1`. Workspace: `cmi92byal02aozvflreedp2gv`. Service: `cps_a13czbnv5544qb9mku47p9n1`. The website uses no database and the project's existing database is outside this deployment.
+
+Use Node 24.11+ and Bun 1.4.4. Run `npm ci`, `npm run typecheck`, `npm run build`, then `npm run compute:dev` for local verification on port 3000. After signing into the same workspace with `npx prisma auth login`, run `npm run compute:deploy` to publish updates. The deployment script uses Prisma's pinned Compute SDK and the existing authenticated CLI session; it never embeds database credentials in the public build.
+
+The Composer declarations describe the static service and its artifact, but direct Composer deployment is unsuitable for this pre-existing project because its database predates Composer's hosted deployment state. `compute:deploy` deploys only the website service through the supported Compute SDK. Do not delete the existing database or project to bootstrap Composer state.
+
+GitHub Pages continues to deploy from `main`. Prisma publishing is manual through the script above; automatic Prisma deployment from GitHub has not been configured. Local authentication, generated artifacts and deployment reports are ignored by Git.
