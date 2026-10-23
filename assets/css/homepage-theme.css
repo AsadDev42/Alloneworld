@@ -177,7 +177,13 @@ body.home.aow-home-polished #what-we-explore .aow-explore-card:nth-child(odd)::b
 body.home.aow-home-polished .aow-blog-slide { border-bottom: 2px solid #e5c3ba !important; }
 body.home.aow-home-polished #aow-lang-selector-root { right: 40px !important; }
 body.home.aow-home-polished #aow-lang-selector-root .aow-lang-trigger { border-color: #ccc9ec !important; color: #273087 !important; }
-body.home.aow-home-polished #aow-lang-selector-root #aow-lang-dropdown { background: #20276b !important; border-color: #6565ac !important; }
+body.home.aow-home-polished #aow-lang-selector-root #aow-lang-dropdown { background: #ffffff !important; border-color: #d5d3ed !important; }
+body.home.aow-home-polished #aow-lang-selector-root :is(.aow-lang-header,.aow-lang-footer) { background: #ffffff !important; border-color: #e7e5f3 !important; }
+body.home.aow-home-polished #aow-lang-selector-root :is(.aow-lang-header-title,.aow-lang-native,.aow-lang-check) { color: #273087 !important; }
+body.home.aow-home-polished #aow-lang-selector-root :is(.aow-lang-sub,.aow-lang-footer) { color: #5c6178 !important; }
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-header-badge { color: #45459b !important; background: #f0effb !important; }
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-list { scrollbar-color: #b9b6dd #ffffff; }
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-list::-webkit-scrollbar-thumb { background: #b9b6dd !important; }
 body.home.aow-home-polished #aow-lang-selector-root .aow-lang-item:is(:hover,:focus-visible,.is-active) { background: #edefff !important; color: #273087 !important; }
 body.home.aow-home-polished #aow-lang-selector-root .aow-lang-item:is(:hover,:focus-visible,.is-active) :is(.aow-lang-native,.aow-lang-sub) { color: #273087 !important; }
 body.home.aow-home-polished .aow-whatsapp-contact { right: 40px; }
@@ -186,6 +192,19 @@ body.home.aow-home-polished .aow-whatsapp-contact { right: 40px; }
   body.home.aow-home-polished .aow-whatsapp-contact { right: 24px; }
 }
 /* A direct contact action, placed above the floating language control. */
+/* Static, lightweight lattice with a quiet reading area through the centre. */
+body.home.aow-home-polished :is(#content,.elementor-element-72d01a3,#what-we-explore,#meet-the-founder,#resources-and-reading,#latest-articles) {
+  background-image: linear-gradient(90deg,rgba(248,248,253,.12),rgba(248,248,253,.92) 28%,rgba(248,248,253,.92) 72%,rgba(248,248,253,.12)),url('../images/islamic-background-lattice.svg') !important;
+  background-size: 100% 100%,144px 144px !important;
+  background-position: center,center top !important;
+  background-repeat: no-repeat,repeat !important;
+}
+@media (max-width:767px) {
+  body.home.aow-home-polished :is(#content,.elementor-element-72d01a3,#what-we-explore,#meet-the-founder,#resources-and-reading,#latest-articles) {
+    background-image: linear-gradient(90deg,rgba(248,248,253,.25),rgba(248,248,253,.88) 18%,rgba(248,248,253,.88) 82%,rgba(248,248,253,.25)),url('../images/islamic-background-lattice.svg') !important;
+    background-size: 100% 100%,112px 112px !important;
+  }
+}
 body.home.aow-home-polished .aow-whatsapp-contact {
   position: fixed; right: max(40px, env(safe-area-inset-right));
   bottom: max(118px, calc(env(safe-area-inset-bottom) + 118px));
