@@ -1,0 +1,227 @@
+/* Unified semi-Islamic visual theme, only for the homepage. */
+body.home.aow-home-polished {
+  --home-ivory: #f8f8fd; --home-paper: #ffffff; --home-teal: #273087;
+  --home-gold: #e17656; --home-line: #deddf0; --home-muted: #555a70;
+  background: var(--home-ivory);
+}
+body.home.aow-home-polished .elementor-1964 > section,
+body.home.aow-home-polished .elementor-1964 > .elementor-element-72d01a3,
+body.home.aow-home-polished #content {
+  background-color: var(--home-ivory) !important;
+  border-color: var(--home-line) !important;
+}
+body.home.aow-home-polished .elementor-1964 > section { padding-block: clamp(48px,4.5vw,64px) !important; }
+/* Use the exact replacement hero artwork supplied by the user. */
+body.home.aow-home-polished .elementor-1964 > .elementor-element-46f218b {
+  background-image: url('../images/hero-ocean-user-v2.png') !important;
+  background-size: cover !important; background-position: center center !important;
+}
+body.home.aow-home-polished .elementor-1964 > :is(section,#content,.elementor-element-72d01a3) { scroll-margin-top: 110px; }
+body.home.aow-home-polished #content .aow-bohm-quote p { color: #4e546c !important; }
+body.home.aow-home-polished #content .aow-bohm-quote cite { color: var(--home-teal) !important; }
+body.home.aow-home-polished .elementor-element-3d54730 { color: var(--home-muted) !important; }
+body.home.aow-home-polished :is(#what-we-explore,#systemic-human-exploration,#meet-the-founder,#resources-and-reading,#latest-articles) {
+  background: var(--home-ivory) !important;
+}
+body.home.aow-home-polished #content,
+body.home.aow-home-polished .elementor-element-72d01a3 { background-image: none !important; }
+body.home.aow-home-polished .aow-bohm-frame { background-image: url('../images/ornamental-brand-frame.svg') !important; }
+body.home.aow-home-polished :is(#what-we-explore,#systemic-human-exploration,#resources-and-reading,#latest-articles) :is(h2,h3),
+body.home.aow-home-polished #content h2,
+body.home.aow-home-polished .elementor-element-7ab393c h2 { color: var(--home-teal) !important; }
+body.home.aow-home-polished :is(.aow-eyebrow,.aow-card-badge) { color: #5656aa !important; }
+body.home.aow-home-polished :is(.aow-section-lead,.aow-card-text,.aow-pillar-text,.aow-paragraph-body) { color: var(--home-muted) !important; }
+body.home.aow-home-polished #what-we-explore .aow-explore-card,
+body.home.aow-home-polished #resources-and-reading .aow-resource-card,
+body.home.aow-home-polished .aow-blog-slide {
+  background: var(--home-paper) !important; border: 1px solid var(--home-line) !important;
+  box-shadow: none !important;
+}
+body.home.aow-home-polished #what-we-explore .aow-explore-card::before {
+  background: var(--home-gold) !important; height: 2px !important;
+}
+body.home.aow-home-polished #what-we-explore .aow-explore-card :is(.aow-card-icon,.aow-icon-wrap,.aow-card-icon-wrapper,.aow-pillar-icon) {
+  color: #5656aa !important; background: #ededfa !important;
+}
+body.home.aow-home-polished #what-we-explore .aow-explore-card a,
+body.home.aow-home-polished #latest-articles .aow-blog-controls > a { color: var(--home-teal) !important; }
+body.home.aow-home-polished .aow-blog-arrows button { border-color: var(--home-line) !important; background: var(--home-paper) !important; color: var(--home-teal) !important; }
+body.home.aow-home-polished :is(.aow-bohm-action,.elementor-element-d4b2751) a.elementor-button {
+  background: var(--home-teal) !important; border: 1px solid var(--home-teal) !important;
+  color: #ffffff !important; box-shadow: none !important; border-radius: 9px !important;
+}
+/* The header keeps all eight items, with a measured gap instead of distributing empty space. */
+body.home.aow-home-polished .elementor-1918 .site-header {
+  position: fixed !important; top: 0 !important; padding: 16px 24px !important;
+  background: transparent !important; border: 0 !important; backdrop-filter: none !important;
+  z-index: 99990 !important;
+}
+body.home.aow-home-polished .elementor-1918 .site-header__nav {
+  position: relative !important; isolation: isolate; min-height: 78px !important; height: 78px !important;
+  max-width: 1180px !important; width: 100% !important; padding: 0 24px !important;
+  gap: 30px !important; justify-content: space-between !important;
+  background: rgba(255,255,255,.97) !important;
+  border: 1px solid rgba(102,102,204,.30) !important;
+  border-radius: 24px 9px 24px 9px !important;
+  box-shadow: 0 7px 28px #27308718 !important; overflow: visible !important;
+}
+body.home.aow-home-polished .elementor-1918 .site-header__nav::before {
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  border-radius: inherit; opacity: .085;
+  background: url('../images/blog-art-healing.png') left 48% / 290px auto no-repeat;
+  mask-image: linear-gradient(to right,#000 0,transparent 31%);
+}
+body.home.aow-home-polished .elementor-1918 .elementor-element-3954700 {
+  flex: 0 0 auto !important; margin: 0 !important; padding: 0 22px 0 0 !important;
+  border-right: 1px solid var(--home-line) !important;
+}
+body.home.aow-home-polished .elementor-1918 .elementor-element-3f68cad img { max-height: 48px !important; max-width: 150px !important; }
+body.home.aow-home-polished .elementor-1918 .site-header.is-scrolled { padding-block: 10px !important; }
+body.home.aow-home-polished .elementor-1918 .site-header.is-scrolled .site-header__nav { box-shadow: 0 7px 30px #27308724 !important; }
+@media (min-width: 1025px) {
+  body.home.aow-home-polished .elementor-1918 .elementor-element-2b200a0 {
+    flex: 0 1 auto !important; width: auto !important; margin: 0 0 0 auto !important;
+  }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-69c6f5a,
+  body.home.aow-home-polished .elementor-1918 .elementor-element-69c6f5a > .elementor-widget-container,
+  body.home.aow-home-polished .elementor-1918 .elementor-element-69c6f5a .elementor-nav-menu--main {
+    width: auto !important; flex: 0 1 auto !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a {
+    width: auto !important; justify-content: flex-start !important; gap: 4px !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item {
+    min-height: 42px !important; padding: 10px 12px !important; font-size: 14px !important;
+    background: transparent !important; color: #333a64 !important; box-shadow: none !important;
+    border: 0 !important; border-radius: 7px !important; font-weight: 500 !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a[aria-current='page'] {
+    background: #ededfa !important; color: #273087 !important; font-weight: 600 !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a:hover { background: #f1f1fc !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li:last-child > a {
+    color: var(--home-teal) !important; border: 1px solid #c7c5ed !important; padding-inline: 15px !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a .sub-menu {
+    background: #ffffff !important; border: 1px solid var(--home-line) !important;
+    border-radius: 14px 5px !important; padding: 8px !important;
+    box-shadow: 0 12px 30px #27308718 !important;
+  }
+}
+@media (min-width:1025px) and (max-width:1199px) {
+  body.home.aow-home-polished .elementor-1918 .site-header__nav { gap: 16px !important; padding-inline: 18px !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item { padding-inline: 7px !important; font-size: 13px !important; }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-3954700 { padding-right: 16px !important; }
+}
+/* One palette for newsletter and footer; the geometry comes from the existing brand asset. */
+body.home.aow-home-polished .elementor-1964 .elementor-element.elementor-element-1d9d88d {
+  background: linear-gradient(110deg,#273087,#454590) !important;
+  border: 1px solid #6666cc !important; border-radius: 48px 12px 48px 12px !important;
+  box-shadow: none !important; padding: 52px 32px !important;
+}
+body.home.aow-home-polished .elementor-1964 .elementor-element.elementor-element-1d9d88d::before {
+  background: url('../images/brand-geometric-light.svg') center / 100px 100px repeat !important;
+  opacity: .24 !important; mask-image: linear-gradient(90deg,#000,transparent 34%,transparent 66%,#000);
+}
+body.home.aow-home-polished .elementor-element-1d9d88d :is(h2,.elementor-heading-title) { color: #ffffff !important; }
+body.home.aow-home-polished .elementor-element-1d9d88d .elementor-element-267dfc3 p { color: #ededff !important; }
+body.home.aow-home-polished .elementor-element-d67f47a input[type='email'] { background: #ffffff !important; border-color: #c5c1eb !important; color: #273087 !important; }
+body.home.aow-home-polished .elementor-1964 .elementor-element.elementor-element-d67f47a button.elementor-button[type='submit'] {
+  background: #66ffff !important; color: #273087 !important; border-color: #66ffff !important;
+}
+body.home.aow-home-polished .elementor-1964 .elementor-element.elementor-element-d67f47a button.elementor-button[type='submit'] .elementor-button-text { color: #273087 !important; }
+body.home.aow-home-polished .elementor-element-1d9d88d .aow-form-status { color: #f1f4ff !important; }
+body.home.aow-home-polished .elementor-1956 .elementor-element-f1284d6 {
+  background: #20276b !important; border-top: 1px solid #6666cc !important;
+}
+body.home.aow-home-polished .elementor-1956 .elementor-element-f54b5e2 { background: #191f58 !important; }
+body.home.aow-home-polished .elementor-1956 :is(h5,.elementor-heading-title) { color: #ffffff !important; }
+/* The logo supplies the palette; geometry supplies the architectural character. */
+body.home.aow-home-polished {
+  --brand-indigo: #273087; --brand-purple: #6666cc; --brand-coral: #e17656;
+  --brand-turquoise: #67c6c6; --brand-cyan: #66ffff; --brand-violet: #6565ac;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-she-layout::before,
+body.home.aow-home-polished #systemic-human-exploration .aow-she-intro::before {
+  background-image: url('../images/brand-geometric-pattern.svg') !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-item {
+  position: relative; isolation: isolate; background: transparent !important;
+  border: 0 !important; border-radius: 0 !important; padding: 72px 28px 30px !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-item::before {
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: url('../images/islamic-program-frame.svg') center / 100% 100% no-repeat;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-icon {
+  color: var(--brand-purple) !important; background: #eeedff !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-title { color: var(--brand-indigo) !important; }
+body.home.aow-home-polished #systemic-human-exploration .aow-eyebrow { color: #5656aa !important; }
+body.home.aow-home-polished #systemic-human-exploration .aow-btn-primary,
+body.home.aow-home-polished #meet-the-founder .aow-btn-primary {
+  color: var(--brand-indigo) !important; border-bottom-color: var(--brand-coral) !important;
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-card { background: #fff !important; border-color: #deddf0 !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-header { background: linear-gradient(150deg,#273087,#4b4995) !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-header::after { background-image: url('../images/brand-geometric-light.svg') !important; }
+body.home.aow-home-polished #meet-the-founder .aow-heading-title { color: #fff !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-role { color: #e7e7ff !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-quote { border-left-color: var(--brand-coral) !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-quote p { color: #333a64 !important; }
+body.home.aow-home-polished #resources-and-reading .aow-section-footer-cta a { background: var(--brand-indigo) !important; border-color: var(--brand-indigo) !important; color: #fff !important; }
+body.home.aow-home-polished #resources-and-reading .aow-section-footer-cta a:hover { background: #1f276f !important; }
+body.home.aow-home-polished #resources-and-reading .aow-resource-btn { color: var(--brand-indigo) !important; }
+body.home.aow-home-polished #what-we-explore .aow-explore-card:nth-child(even)::before { background: var(--brand-purple) !important; }
+body.home.aow-home-polished #what-we-explore .aow-explore-card:nth-child(odd)::before { background: var(--brand-coral) !important; }
+body.home.aow-home-polished .aow-blog-slide { border-bottom: 2px solid #e5c3ba !important; }
+body.home.aow-home-polished #aow-lang-selector-root { right: 40px !important; }
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-trigger { border-color: #ccc9ec !important; color: #273087 !important; }
+body.home.aow-home-polished #aow-lang-selector-root #aow-lang-dropdown { background: #20276b !important; border-color: #6565ac !important; }
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-item:is(:hover,:focus-visible,.is-active) { background: #edefff !important; color: #273087 !important; }
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-item:is(:hover,:focus-visible,.is-active) :is(.aow-lang-native,.aow-lang-sub) { color: #273087 !important; }
+body.home.aow-home-polished .aow-whatsapp-contact { right: 40px; }
+@media(max-width:767px) {
+  body.home.aow-home-polished #aow-lang-selector-root { right: 24px !important; }
+  body.home.aow-home-polished .aow-whatsapp-contact { right: 24px; }
+}
+/* A direct contact action, placed above the floating language control. */
+body.home.aow-home-polished .aow-whatsapp-contact {
+  position: fixed; right: max(40px, env(safe-area-inset-right));
+  bottom: max(118px, calc(env(safe-area-inset-bottom) + 118px));
+  z-index: 100009; display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 17px; min-height: 48px; border: 1px solid #20c55a;
+  border-radius: 999px; background: #20c55a; color: white;
+  font: 600 14px/1.3 Inter,sans-serif; text-decoration: none;
+  box-shadow: 0 4px 15px #113c2529;
+}
+body.home.aow-home-polished .aow-whatsapp-contact:hover { background: #16a34a; color: white; }
+body.home.aow-home-polished .aow-whatsapp-contact:focus-visible { outline: 3px solid #e17656; outline-offset: 4px; }
+body.home.aow-home-polished .aow-whatsapp-contact svg { display: block; width: 23px; height: 23px; flex: 0 0 23px; fill: currentColor; }
+@media (max-width:1024px) {
+  body.home.aow-home-polished .elementor-1918 .site-header { padding: 12px 20px !important; }
+  body.home.aow-home-polished .elementor-1918 .site-header__nav { height: 68px !important; min-height: 68px !important; justify-content: space-between !important; padding-inline: 20px !important; }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-3954700 { border: 0 !important; padding: 0 !important; }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-2b200a0 { margin-left: auto !important; }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown.elementor-nav-menu__container { background: #ffffff !important; border-color: var(--home-line) !important; border-radius: 16px 5px !important; }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown a:is(.elementor-item,.elementor-sub-item) { color: var(--home-teal) !important; box-shadow: none !important; }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown a.elementor-item-active { background: #ededfa !important; }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown a::before,
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown a::after { display: none !important; }
+  body.home.aow-home-polished .elementor-1918 .elementor-menu-toggle { color: var(--home-teal) !important; }
+  body.home.aow-home-polished .elementor-1918 .elementor-element.elementor-element-69c6f5a div.elementor-menu-toggle {
+    background: var(--home-teal) !important; color: #ffffff !important;
+    border: 1px solid var(--home-teal) !important; border-radius: 8px !important;
+  }
+  body.home.aow-home-polished .elementor-1918 .elementor-element.elementor-element-69c6f5a div.elementor-menu-toggle svg { fill: #ffffff !important; color: #ffffff !important; }
+  body.home.aow-home-polished .elementor-1918 .site-header__nav::before { mask-image: linear-gradient(to right,#000,transparent 70%); }
+}
+@media (max-width:767px) {
+  body.home.aow-home-polished .elementor-1964 > .elementor-element-46f218b { background-position: 35% center !important; }
+  body.home.aow-home-polished .aow-whatsapp-contact { right: 24px; bottom: 98px; padding: 11px 15px; min-height: 46px; }
+  body.home.aow-home-polished .elementor-1918 .site-header { padding: 10px 14px !important; }
+  body.home.aow-home-polished .elementor-1918 .site-header__nav { height: 62px !important; min-height: 62px !important; padding-inline: 16px !important; border-radius: 20px 6px !important; }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-3f68cad img { max-height: 40px !important; max-width: 130px !important; }
+  body.home.aow-home-polished .elementor-1964 .elementor-element.elementor-element-1d9d88d { padding: 36px 20px !important; border-radius: 32px 8px !important; }
+  body.home.aow-home-polished .aow-bohm-frame { background-image: none !important; border-color: var(--home-gold) !important; background-color: var(--home-paper) !important; }
+}

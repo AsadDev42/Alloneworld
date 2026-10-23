@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+chrome*profile*/
+scratch/
+__pycache__/
+*.pyc

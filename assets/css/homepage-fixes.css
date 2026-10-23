@@ -1,0 +1,344 @@
+/* Homepage only. Never target the protected 46f218b hero or shared page styles. */
+body.home.aow-home-polished { --home-space: clamp(48px, 5vw, 72px); }
+/* The fixed header already reserves space on body; the second reservation was a blank strip. */
+body.home.aow-home-polished > .elementor-1964 { padding-top: 0 !important; }
+body.home.aow-home-polished .elementor-1964 > section {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: var(--home-space) 0 !important;
+  margin: 0 !important;
+  min-width: 0;
+}
+body.home.aow-home-polished .aow-inner-constrained {
+  width: 100% !important;
+  max-width: 1200px !important;
+  padding: 0 clamp(20px, 4vw, 40px) !important;
+  gap: 0 !important;
+}
+body.home.aow-home-polished .aow-section-header { margin-bottom: 32px !important; }
+body.home.aow-home-polished .aow-eyebrow { font-family: Inter, sans-serif !important; font-size: 12px !important; }
+body.home.aow-home-polished .aow-heading-title { font-size: clamp(28px, 3vw, 38px) !important; }
+body.home.aow-home-polished .aow-grid-4 { gap: 20px !important; }
+body.home.aow-home-polished .aow-explore-card {
+  padding: 24px !important; border-radius: 14px !important;
+  box-shadow: none !important; min-width: 0;
+}
+body.home.aow-home-polished .aow-card-title { font-size: 20px !important; line-height: 1.35 !important; }
+body.home.aow-home-polished .aow-card-text { font-size: 15px !important; line-height: 1.75 !important; }
+body.home.aow-home-polished .aow-founder-card,
+body.home.aow-home-polished .aow-ga4pal-card {
+  padding: clamp(24px, 4vw, 40px) !important;
+  border-radius: 16px !important; box-shadow: none !important;
+}
+body.home.aow-home-polished .aow-founder-quote { margin: 24px 0 !important; }
+body.home.aow-home-polished .aow-notice-banner { margin: 24px 0 !important; }
+body.home.aow-home-polished .aow-btn-group { gap: 12px !important; flex-wrap: wrap !important; }
+body.home.aow-home-polished .aow-resource-img-wrap { height: 220px !important; min-height: 220px !important; max-height: 220px !important; }
+body.home.aow-home-polished .aow-resource-content { padding: 24px !important; }
+body.home.aow-home-polished .aow-resource-card { box-shadow: none !important; border-radius: 14px !important; }
+body.home.aow-home-polished .aow-section-footer-cta { margin-top: 28px !important; }
+/* Keep the existing About imagery and content, with readable, compact proportions. */
+body.home.aow-home-polished .elementor-1964 > .elementor-element-72d01a3 {
+  padding: var(--home-space) clamp(20px, 4vw, 60px) !important;
+  align-items: center !important; gap: 40px !important;
+}
+body.home.aow-home-polished .elementor-element-72d01a3 > .elementor-element-cbd583b {
+  padding: 0 !important; flex: 1 !important; width: auto !important; min-width: 0;
+}
+body.home.aow-home-polished .elementor-element-72d01a3 > .elementor-element-9a6707f { min-width: 0; }
+body.home.aow-home-polished .elementor-element-72d01a3 img { max-height: 440px; object-fit: contain; }
+body.home.aow-home-polished .elementor-element-3d54730 p:last-child:empty { display: none; }
+body.home.aow-home-polished #content {
+  display: flex !important; flex-direction: column !important;
+  padding: 40px 24px 28px !important; min-height: 0 !important;
+  background: #fff url('../images/Group-317.png') center / cover no-repeat !important;
+}
+body.home.aow-home-polished #content::before { display: none !important; }
+body.home.aow-home-polished .aow-bohm-frame {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; max-width: 1280px; min-height: 500px; margin: 0 auto;
+  padding: 80px 100px; box-sizing: border-box;
+  background: url('../images/Vector-Stroke.png') center / 100% 100% no-repeat;
+}
+body.home.aow-home-polished #content h2 {
+  width: 100%; max-width: 1100px; margin: 0 auto 22px !important;
+  text-align: center !important; font-size: clamp(24px, 2.5vw, 36px) !important;
+  line-height: 1.25 !important; color: #080808 !important;
+}
+body.home.aow-home-polished .aow-bohm-quote { width: 100%; max-width: 1060px; margin: 0 auto; border: 0; padding: 0; text-align: center; }
+body.home.aow-home-polished .aow-bohm-quote p { margin: 0 !important; font: 400 16px/1.5 Inter, sans-serif; color: #080808; }
+body.home.aow-home-polished .aow-bohm-quote cite { display: block; margin-top: 32px; font: 700 25px/1.3 Inter, sans-serif; color: #080808; }
+body.home.aow-home-polished .aow-bohm-role { display: block; margin-top: 16px; font: 400 16px/1.5 Inter, sans-serif; }
+body.home.aow-home-polished .aow-bohm-action { display: flex; justify-content: center; margin-top: 42px; }
+body.home.aow-home-polished .aow-bohm-action .elementor-button {
+  background: #67f4f4 !important; color: #080808 !important; box-shadow: none !important;
+  border: 0 !important; border-radius: 10px !important; padding: 13px 24px !important;
+  font: 500 18px/1.3 Inter, sans-serif !important;
+}
+/* One published article, presented as an editorial feature instead of filler cards. */
+body.home.aow-home-polished .aow-article-feature {
+  display: grid; grid-template-columns: 1fr 1fr; overflow: hidden;
+  border: 1px solid #dfe7e9; border-radius: 16px; background: white;
+}
+body.home.aow-home-polished .aow-article-feature > a { display: block; min-width: 0; }
+body.home.aow-home-polished .aow-article-feature img { display: block; width: 100%; height: 100%; min-height: 300px; object-fit: cover; }
+body.home.aow-home-polished .aow-article-copy { padding: clamp(24px, 4vw, 44px); align-self: center; }
+body.home.aow-home-polished .aow-article-copy time { color: #53646a; font: 400 13px/1.5 Inter, sans-serif; }
+body.home.aow-home-polished .aow-article-copy h3 { margin: 14px 0; font: 600 clamp(24px, 2.5vw, 32px)/1.25 'Bricolage Grotesque', sans-serif; color: #19183b; }
+body.home.aow-home-polished .aow-article-copy h3 a { color: inherit; text-decoration: none; }
+body.home.aow-home-polished .aow-article-copy p { margin: 0 0 24px; font: 400 16px/1.75 Inter, sans-serif; color: #475569; }
+body.home.aow-home-polished .aow-events-panel { display: flex; align-items: center; justify-content: space-between; gap: 28px; border-top: 1px solid #dfe7e9; padding-top: 28px; }
+body.home.aow-home-polished .aow-events-panel p { margin: 0; max-width: 620px; color: #475569; font: 400 16px/1.75 Inter, sans-serif; }
+body.home.aow-home-polished .aow-events-panel .aow-heading-title { font-size: 28px !important; }
+body.home.aow-home-polished .aow-events-panel .elementor-button { flex-shrink: 0; }
+/* Newsletter feedback stays visible below the form and never claims an unconfirmed subscription. */
+body.home.aow-home-polished .aow-policy-note { font: 400 13px/1.7 Inter, sans-serif; color: #c1c8d4; margin-top: 16px; }
+body.home.aow-home-polished .aow-policy-note a { color: #90e0d8; text-decoration: underline; }
+body.home.aow-home-polished .aow-form-status { margin: 14px 0 0; font: 400 14px/1.6 Inter, sans-serif; color: #173d3b; }
+body.home.aow-home-polished .aow-form-status:empty { display: none; }
+body.home.aow-home-polished .aow-form-status a { color: inherit; text-decoration: underline; }
+body.home.aow-home-polished button:disabled { cursor: wait; opacity: .7; }
+body.home.aow-home-polished :is(section, header, footer, .elementor-element-72d01a3, .elementor-element-9d0885d) :is(a, button, input, [role='button']):focus-visible {
+  outline: 3px solid #16857d !important; outline-offset: 4px !important;
+}
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-trigger { background: #fff !important; color: #252b35 !important; }
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-item:is(:hover, :focus-visible, .is-active) { background: #e8f4f2 !important; color: #173d3b !important; }
+body.home.aow-home-polished .aow-lang-footer { color: #53646a !important; }
+/* Floating language control stays independent of the footer's layout. */
+body.home.aow-home-polished #aow-lang-selector-root {
+  position: fixed !important; right: max(40px, env(safe-area-inset-right)) !important;
+  bottom: max(40px, env(safe-area-inset-bottom)) !important;
+  top: auto !important; left: auto !important; width: auto !important;
+  margin: 0 !important; z-index: 100010 !important;
+}
+body.home.aow-home-polished #aow-lang-selector-root .aow-lang-wrapper { z-index: 99991 !important; }
+body.home.aow-home-polished #aow-lang-selector-root #aow-lang-dropdown {
+  right: 0 !important; left: auto !important; bottom: calc(100% + 12px) !important;
+  transform: none !important; transform-origin: bottom right !important;
+  width: min(300px, calc(100vw - 80px)) !important;
+  max-height: calc(100dvh - 100px) !important; overflow-y: auto !important;
+}
+/* Resource cards: concise descriptions and quiet links instead of large buttons. */
+body.home.aow-home-polished #resources-and-reading .aow-resource-badge { display: none !important; }
+body.home.aow-home-polished #resources-and-reading .aow-resource-content { padding: 24px 26px !important; }
+body.home.aow-home-polished #resources-and-reading .aow-resource-text { margin-bottom: 18px !important; }
+body.home.aow-home-polished #resources-and-reading .aow-resource-btn,
+body.home.aow-home-polished #resources-and-reading .aow-section-footer-cta a {
+  width: auto !important; min-height: 36px !important; height: auto !important;
+  padding: 4px 0 !important; border: 0 !important; border-radius: 0 !important;
+  background: transparent !important; box-shadow: none !important;
+  color: #185a58 !important; font: 500 15px/1.5 Inter, sans-serif !important;
+  justify-content: flex-start !important; gap: 10px !important; transform: none !important;
+}
+body.home.aow-home-polished #resources-and-reading a:hover { text-decoration: underline !important; }
+/* Native horizontal slider: keyboard, touch, and arrow controls, without autoplay. */
+body.home.aow-home-polished .aow-blog-track {
+  display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 48px) / 3);
+  gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory;
+  scrollbar-width: none; padding: 4px 1px 12px;
+}
+body.home.aow-home-polished .aow-blog-track::-webkit-scrollbar { display: none; }
+body.home.aow-home-polished .aow-blog-slide {
+  scroll-snap-align: start; min-width: 0; display: flex; flex-direction: column;
+  border: 1px solid #e0e6eb; border-radius: 14px; overflow: hidden; background: #fff;
+}
+body.home.aow-home-polished .aow-blog-slide img { width: 100%; height: 205px; object-fit: cover; display: block; }
+body.home.aow-home-polished .aow-blog-slide-copy { padding: 24px; flex: 1; }
+body.home.aow-home-polished .aow-blog-slide-copy small { font: 400 12px/1.5 Inter, sans-serif; color: #627079; }
+body.home.aow-home-polished .aow-blog-slide-copy h3 { margin: 12px 0; font: 600 22px/1.3 'Bricolage Grotesque', sans-serif; color: #19183b; }
+body.home.aow-home-polished .aow-blog-slide-copy h3 a { color: inherit; text-decoration: none; }
+body.home.aow-home-polished .aow-blog-slide-copy p { margin: 0; font: 400 15px/1.7 Inter, sans-serif; color: #53616e; }
+body.home.aow-home-polished .aow-blog-controls { display: flex; align-items: center; justify-content: space-between; margin-top: 22px; gap: 20px; }
+body.home.aow-home-polished .aow-blog-controls > a { color: #185a58; font: 500 15px/1.5 Inter,sans-serif; text-decoration: none; }
+body.home.aow-home-polished .aow-blog-arrows { display: flex; gap: 10px; }
+body.home.aow-home-polished .aow-blog-arrows button { width: 44px; height: 44px; padding: 0; border: 1px solid #d9e1e4; border-radius: 50%; background: white; color: #19183b; font: 400 23px/1 Inter,sans-serif; cursor: pointer; }
+body.home.aow-home-polished .aow-blog-arrows button:disabled { opacity: .35; cursor: default; }
+/* Modern geometric detailing requested for S.H.E., the founder, and About. */
+body.home.aow-home-polished #systemic-human-exploration {
+  background: #fcfaf5 !important; border-block: 1px solid #eae2d4;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-she-layout {
+  position: relative; gap: clamp(32px, 5vw, 68px) !important;
+  grid-template-columns: 1fr 1.1fr !important; align-items: center !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-she-intro {
+  position: relative; padding: 28px 0 !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-she-intro::before {
+  content: ''; display: block; width: 64px; height: 64px; margin-bottom: 24px;
+  background: url('../images/islamic-geometric-pattern.svg') center / 64px 64px;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-heading-title { color: #193e3d !important; }
+body.home.aow-home-polished #systemic-human-exploration .aow-eyebrow,
+body.home.aow-home-polished #meet-the-founder .aow-eyebrow { color: #8c6b36 !important; }
+body.home.aow-home-polished #systemic-human-exploration .aow-she-pillars {
+  display: grid !important; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-item {
+  flex-direction: column; padding: 24px !important; gap: 16px !important;
+  border: 1px solid #e7dfce !important; border-radius: 40px 12px 12px 12px !important;
+  background: #fffefb !important; box-shadow: none !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-item:hover { transform: translateY(-2px) !important; border-color: #bc9b61 !important; }
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-icon {
+  background: #f2ede1 !important; color: #8c6b36 !important;
+  border-radius: 12px 4px 12px 4px !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-title { color: #193e3d !important; font-size: 18px !important; }
+body.home.aow-home-polished #systemic-human-exploration .aow-btn-primary,
+body.home.aow-home-polished #meet-the-founder .aow-btn-primary {
+  width: auto !important; background: transparent !important; color: #205451 !important;
+  border: 0 !important; border-bottom: 1px solid #bba06d !important;
+  padding: 9px 0 !important; min-height: 40px !important; height: auto !important;
+  border-radius: 0 !important; box-shadow: none !important; font-weight: 500 !important;
+}
+body.home.aow-home-polished #meet-the-founder { background: #fff !important; border: 0 !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-card {
+  position: relative; display: grid; grid-template-columns: .75fr 1.5fr;
+  gap: 40px; max-width: none !important; background: #fbfaf6 !important;
+  border: 1px solid #e5dbc7 !important; border-radius: 60px 16px 16px 16px !important;
+  padding: clamp(28px,4vw,48px) !important; overflow: hidden;
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-card::before {
+  content: ''; position: absolute; width: 240px; height: 240px;
+  left: -40px; bottom: -70px; pointer-events: none; opacity: .22;
+  background: url('../images/islamic-geometric-pattern.svg') center / 80px 80px;
+  mask-image: linear-gradient(to top, #000, transparent);
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-header {
+  position: relative; border-bottom: 0 !important; border-right: 1px solid #e1d6bf;
+  padding: 12px 32px 0 0 !important; margin: 0 !important;
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-role { color: #576b67 !important; font-size: 15px !important; line-height: 1.7; font-weight: 400 !important; }
+body.home.aow-home-polished #meet-the-founder .aow-heading-title { color: #193e3d !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-body { position: relative; min-width: 0; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-quote {
+  margin: 0 0 22px !important; border-left: 2px solid #bd9a5c !important; padding-left: 22px !important;
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-quote p { font-size: 19px !important; font-style: normal !important; line-height: 1.7 !important; color: #274843 !important; font-weight: 400 !important; }
+/* Remove the oversized overlapping ornament and frame the existing photo cleanly. */
+body.home.aow-home-polished .elementor-element-72d01a3 > .elementor-element-9a6707f {
+  display: grid !important; grid-template-columns: minmax(0,.9fr) minmax(0,1fr);
+  gap: clamp(32px,5vw,68px); align-items: center !important;
+  flex: 1 1 auto !important; width: 100% !important; max-width: 1200px !important;
+  margin-inline: auto !important;
+}
+body.home.aow-home-polished .elementor-element-72d01a3 .elementor-element-cbd583b {
+  padding: 0 !important; width: 100% !important; min-width: 0 !important;
+}
+body.home.aow-home-polished .elementor-element-72d01a3 .elementor-element-3a749b0 {
+  width: 100% !important; max-width: 440px !important; --width: 100%;
+}
+body.home.aow-home-polished .elementor-element-72d01a3 .elementor-element-a70305f,
+body.home.aow-home-polished .elementor-element-72d01a3 .elementor-element-48bf943 { display: none !important; }
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed {
+  border-radius: 180px 180px 18px 18px !important; border: 1px solid #d9c5a2;
+  padding: 8px; background: #fcfaf5 !important; box-shadow: none;
+}
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed img {
+  width: 100% !important; height: 420px !important; max-height: none !important;
+  object-fit: cover !important; border-radius: 172px 172px 12px 12px;
+}
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed .blox_centered_text { display: none !important; }
+/* User-authorized image adjustment: retain the hero content and animation. */
+body.home.aow-home-polished .elementor-1964 > .elementor-element-46f218b {
+  background-position: center calc(50% + 20px) !important;
+  background-size: auto calc(100% + 48px) !important;
+}
+@media (min-aspect-ratio: 12/5) {
+  body.home.aow-home-polished .elementor-1964 > .elementor-element-46f218b { background-size: 100% auto !important; }
+}
+@media (max-width: 1024px) {
+  body.home.aow-home-polished #systemic-human-exploration .aow-she-layout { grid-template-columns: minmax(0,1fr) !important; }
+  body.home.aow-home-polished #systemic-human-exploration .aow-she-intro { padding: 0 !important; }
+  body.home.aow-home-polished #meet-the-founder .aow-founder-card { grid-template-columns: minmax(0,1fr); gap: 24px; }
+  body.home.aow-home-polished #meet-the-founder .aow-founder-header { border-right: 0; border-bottom: 1px solid #e1d6bf !important; padding: 0 0 24px !important; }
+}
+@media (max-width: 767px) {
+  body.home.aow-home-polished #systemic-human-exploration .aow-she-pillars { grid-template-columns: minmax(0,1fr); }
+  body.home.aow-home-polished .elementor-element-72d01a3 > .elementor-element-9a6707f { grid-template-columns: minmax(0,1fr); flex-basis: auto !important; width: 100% !important; }
+  body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed img { height: 340px !important; }
+  body.home.aow-home-polished #aow-lang-selector-root { right: 28px !important; bottom: 32px !important; }
+  body.home.aow-home-polished #aow-lang-selector-root #aow-lang-dropdown { width: min(300px,calc(100vw - 56px)) !important; }
+}
+@media (max-width: 1024px) { body.home.aow-home-polished .aow-blog-track { grid-auto-columns: calc((100% - 24px) / 2); } }
+@media (max-width: 767px) { body.home.aow-home-polished .aow-blog-track { grid-auto-columns: 100%; } }
+/* The old item padding made the menu wider than its column, overlapping the logo. */
+@media (min-width: 1025px) {
+  body.home.aow-home-polished .elementor-1918 .site-header__nav {
+    gap: 40px !important; justify-content: space-between !important; max-width: 1180px !important;
+    padding-inline: 32px !important;
+  }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-2b200a0 {
+    flex: 1 1 0 !important; min-width: 0 !important; margin-left: auto !important;
+    flex-direction: row !important; justify-content: flex-end !important;
+  }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-69c6f5a {
+    flex: 1 1 auto !important; width: 100% !important; max-width: 100% !important;
+  }
+  body.home.aow-home-polished .elementor-1918 .elementor-element-69c6f5a > .elementor-widget-container,
+  body.home.aow-home-polished .elementor-1918 .elementor-element-69c6f5a .elementor-nav-menu--main { width: 100% !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a {
+    width: 100% !important; justify-content: space-between !important;
+    gap: 12px !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a::before,
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a::after { display: none !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item {
+    padding: 10px 8px !important; margin: 0 !important;
+    min-height: 44px !important; font-size: 14px !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item::before,
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item::after { display: none !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item {
+    background: transparent !important; box-shadow: none !important; border-radius: 5px !important;
+    color: #303a40 !important; transform: none !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item[aria-current='page'] {
+    color: #205451 !important; box-shadow: inset 0 -2px 0 #b79a64 !important; font-weight: 600 !important;
+  }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item:hover { color: #205451 !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a .sub-arrow { padding: 0 !important; margin-left: 4px !important; }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+  body.home.aow-home-polished .elementor-1918 .site-header__nav { gap: 20px !important; padding-inline: 22px !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a { gap: 8px !important; }
+  body.home.aow-home-polished .elementor-1918 #menu-1-69c6f5a > li > a.elementor-item { padding-inline: 5px !important; font-size: 13px !important; }
+}
+@media (max-width: 1024px) {
+  body.home.aow-home-polished .aow-bohm-frame { padding: 72px 64px; }
+  body.home.aow-home-polished .aow-grid-4 { grid-template-columns: repeat(2,minmax(0,1fr)) !important; }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
+    max-height: calc(100dvh - 100px) !important; overflow-y: auto !important;
+  }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown.elementor-nav-menu__container > ul.elementor-nav-menu {
+    display: flex !important; flex-direction: column !important;
+    align-items: stretch !important; justify-content: flex-start !important;
+    gap: 0 !important; width: 100% !important; margin: 0 !important; padding: 0 !important;
+  }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown.elementor-nav-menu__container > ul > li {
+    width: 100% !important; margin: 0 !important;
+  }
+  body.home.aow-home-polished .elementor-1918 nav.elementor-nav-menu--dropdown.elementor-nav-menu__container > ul > li > a {
+    width: 100% !important; white-space: normal !important;
+  }
+}
+@media (max-width: 767px) {
+  body.home.aow-home-polished #content { padding: 32px 20px !important; }
+  body.home.aow-home-polished .aow-bohm-frame { background: #ffffffb3; min-height: 0; padding: 32px 20px; border: 2px solid #ef9c58; border-radius: 24px; }
+  body.home.aow-home-polished #content h2 { font-size: 26px !important; }
+  body.home.aow-home-polished .aow-bohm-quote cite { font-size: 22px; margin-top: 24px; }
+  body.home.aow-home-polished .aow-bohm-action { margin-top: 24px; }
+  body.home.aow-home-polished .aow-grid-4 { grid-template-columns: minmax(0,1fr) !important; }
+  body.home.aow-home-polished .elementor-1964 > .elementor-element-72d01a3 { flex-direction: column !important; gap: 28px !important; }
+  body.home.aow-home-polished .elementor-element-72d01a3 > .e-con { width: 100% !important; }
+  body.home.aow-home-polished .aow-article-feature { grid-template-columns: minmax(0,1fr); }
+  body.home.aow-home-polished .aow-article-feature img { height: 230px; min-height: 0; }
+  body.home.aow-home-polished .aow-events-panel { flex-direction: column; align-items: flex-start; }
+  body.home.aow-home-polished .aow-btn-group > a { width: 100% !important; white-space: normal; text-align: center; }
+  body.home.aow-home-polished .aow-resources-grid { grid-template-columns: minmax(0,1fr) !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.home.aow-home-polished :is(section, header, footer, .elementor-element-72d01a3, .elementor-element-9d0885d) *,
+  body.home.aow-home-polished .site-header { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}

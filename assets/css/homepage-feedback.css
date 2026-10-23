@@ -1,0 +1,93 @@
+/* Latest client feedback, scoped to the homepage demo. */
+body.home.aow-home-polished .elementor-1964 > .elementor-element-46f218b {
+  --min-height: 78vh !important;
+  min-height: clamp(560px, 78vh, 970px) !important;
+  background-size: auto calc(100% + 64px) !important;
+  background-position: center calc(50% + 30px) !important;
+}
+@media (min-aspect-ratio: 12/5) {
+  body.home.aow-home-polished .elementor-1964 > .elementor-element-46f218b { background-size: 100% auto !important; }
+}
+/* The source photo has its own transparent curved edge; do not put a white frame behind it. */
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed {
+  padding: 0 !important; border: 0 !important; background: transparent !important;
+  border-radius: 0 !important; box-shadow: none !important;
+}
+body.home.aow-home-polished #uc_subtle_overlay_content_box_elementor_9d73fed img {
+  height: auto !important; max-height: none !important; object-fit: contain !important;
+  border-radius: 0 !important; aspect-ratio: 721 / 609;
+}
+/* More pronounced, restrained geometric and arch detailing. */
+body.home.aow-home-polished #systemic-human-exploration .aow-she-layout::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none; opacity: .075;
+  background: url('../images/islamic-geometric-pattern.svg') right top / 100px 100px;
+  mask-image: linear-gradient(110deg, transparent 25%, #000);
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-she-intro,
+body.home.aow-home-polished #systemic-human-exploration .aow-she-pillars { position: relative; z-index: 1; }
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-item {
+  border-radius: 72px 72px 14px 14px !important;
+  align-items: center !important; text-align: center; padding: 30px 24px !important;
+  border-color: #d8c39d !important;
+}
+body.home.aow-home-polished #systemic-human-exploration .aow-pillar-icon {
+  clip-path: polygon(30% 0,70% 0,100% 30%,100% 70%,70% 100%,30% 100%,0 70%,0 30%);
+  background: #eee2ca !important;
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-card {
+  padding: 0 !important; gap: 0; border-radius: 64px 16px 16px 16px !important;
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-card::before { display: none; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-header {
+  padding: 48px 32px !important; border: 0 !important; background: #1d4441;
+  display: flex; flex-direction: column; justify-content: center;
+}
+body.home.aow-home-polished #meet-the-founder .aow-founder-header::after {
+  content: ''; width: 100px; height: 100px; margin-top: 32px; opacity: .5;
+  background: url('../images/islamic-geometric-pattern.svg') center / 100px 100px;
+}
+body.home.aow-home-polished #meet-the-founder .aow-heading-title { color: #fff7e9 !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-role { color: #d2e2dd !important; }
+body.home.aow-home-polished #meet-the-founder .aow-founder-body { padding: 40px; }
+/* Keep card actions quiet; give the one section-level action clear button styling. */
+body.home.aow-home-polished #resources-and-reading .aow-section-footer-cta a {
+  display: inline-flex !important; align-items: center !important; justify-content: center !important;
+  min-height: 46px !important; padding: 12px 24px !important;
+  border: 1px solid #234e49 !important; border-radius: 10px !important;
+  background: #234e49 !important; color: #fff !important; text-decoration: none !important;
+}
+body.home.aow-home-polished #resources-and-reading .aow-section-footer-cta a:hover { background: #173c37 !important; }
+/* Restore the established turquoise artwork and its original geometric texture. */
+body.home.aow-home-polished .elementor-1964 .elementor-element.elementor-element-1d9d88d {
+  background: #65eeee url('../images/Group-345.png') center / cover no-repeat !important;
+}
+body.home.aow-home-polished .elementor-1964 .elementor-element.elementor-element-1d9d88d::before {
+  background: url('../images/islamic-geometric-pattern.svg') center / 60px 60px repeat !important;
+  opacity: .055 !important;
+}
+body.home.aow-home-polished #aow-lang-selector-root {
+  right: max(64px, env(safe-area-inset-right)) !important;
+  bottom: max(64px, env(safe-area-inset-bottom)) !important;
+}
+body.home.aow-home-polished #aow-lang-selector-root #aow-lang-dropdown { width: min(300px,calc(100vw - 96px)) !important; }
+/* Large square artwork with titles only. */
+body.home.aow-home-polished #latest-articles .aow-inner-constrained { max-width: 1320px !important; }
+body.home.aow-home-polished .aow-blog-slide img {
+  aspect-ratio: 1 / 1; width: 100%; height: auto !important; object-fit: cover;
+}
+body.home.aow-home-polished .aow-blog-slide-copy { padding: 22px 24px 26px; flex: 0 0 auto; }
+body.home.aow-home-polished .aow-blog-slide-copy h3 { margin: 0; font-size: 23px; }
+body.home.aow-home-polished .aow-blog-demo-note { color: #738079; font: 400 12px/1.5 Inter,sans-serif; }
+body.home.aow-home-polished .aow-blog-arrows button { display: inline-flex; align-items: center; justify-content: center; }
+body.home.aow-home-polished .aow-blog-arrows .aow-blog-pause { font-size: 15px; }
+@media (max-width: 1024px) {
+  body.home.aow-home-polished #meet-the-founder .aow-founder-header { padding: 32px !important; }
+  body.home.aow-home-polished #meet-the-founder .aow-founder-header::after { display: none; }
+}
+@media (max-width: 767px) {
+  body.home.aow-home-polished #meet-the-founder .aow-founder-body { padding: 28px; }
+  body.home.aow-home-polished #aow-lang-selector-root { right: 40px !important; bottom: 44px !important; }
+  body.home.aow-home-polished #aow-lang-selector-root #aow-lang-dropdown { width: min(300px,calc(100vw - 80px)) !important; }
+  body.home.aow-home-polished .aow-blog-slide-copy h3 { font-size: 22px; }
+  body.home.aow-home-polished .aow-blog-demo-note { display: none; }
+}

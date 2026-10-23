@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g fill="none" stroke="#c5a059" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center 8-point Star (Khatam): Overlapping rotated squares -->
+    <rect x="17.5" y="17.5" width="25" height="25" />
+    <rect x="17.5" y="17.5" width="25" height="25" transform="rotate(45 30 30)" />
+    <!-- Connecting geometric lattice lines -->
+    <line x1="30" y1="0" x2="30" y2="12.3" />
+    <line x1="30" y1="47.7" x2="30" y2="60" />
+    <line x1="0" y1="30" x2="12.3" y2="30" />
+    <line x1="47.7" y1="30" x2="60" y2="30" />
+    <!-- Diagonal lattice connections -->
+    <line x1="0" y1="0" x2="17.5" y2="17.5" />
+    <line x1="60" y1="0" x2="42.5" y2="17.5" />
+    <line x1="60" y1="60" x2="42.5" y2="42.5" />
+    <line x1="0" y1="60" x2="17.5" y2="42.5" />
+    <!-- Corner quarter-stars for seamless tiling -->
+    <rect x="-8.8" y="-8.8" width="17.6" height="17.6" transform="rotate(45 0 0)" />
+    <rect x="51.2" y="-8.8" width="17.6" height="17.6" transform="rotate(45 60 0)" />
+    <rect x="51.2" y="51.2" width="17.6" height="17.6" transform="rotate(45 60 60)" />
+    <rect x="-8.8" y="51.2" width="17.6" height="17.6" transform="rotate(45 0 60)" />
+  </g>
+</svg>
